@@ -1,0 +1,1 @@
+ grep -rnw '/home/iamstupid' -e 'flag'

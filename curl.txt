@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>Hey there!</title>
+        <style>
+        * {
+            font-size: 150%;
+            font-family: "Comic Sans MS";
+        }
+        h4 {
+            visibility: hidden;
+        }
+        /* TODO: remove robots we don't want to give them a flag too easily*/
+	/* list of available files. wannacry.html, ssh.html, flag.html, answer.html */
+        </style>
+        <meta http-equiv="refresh" content="0.1;url=index2.html" />
+        <script>
+        document.addEventListener('contextmenu', event => event.preventDefault() & alert("You can't right click lol"));
+        </script>
+    </head>
+    <body background="bob.jpg">
+        <h1>Welcome to <code>YouCantSolveThis</code>!</h1>
+        <h3>Please note: This fun activity is intended for those aged 9 to 12.</h3>
+        <h4>TODO: remove robots we don't want to give them a flag too flag4(easily)</h4>
+    </body>
+</html>

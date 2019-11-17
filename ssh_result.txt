@@ -1,0 +1,6 @@
+ssh means secure shell it lets you remotely connect to a computer from your own computer the ssh details are apraximately:
+iamstupid
+password
+have fun u dumby
+
+you'll find some hints in hints.txt heres something important, a flag can be anything in this format flag($text) and $text is the text that belongs to the flag as a headsup, to see the flags, you need eyes. but a screenreader will work too. 

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sat Nov 16 21:05:21 2019 as: nmap -p22,64695 -sC -sV -oA ysct 10.10.7.100 -->
+<nmaprun scanner="nmap" args="nmap -p22,64695 -sC -sV -oA ysct 10.10.7.100" start="1573918521" startstr="Sat Nov 16 21:05:21 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="syn" protocol="tcp" numservices="2" services="22,64695"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1573918522" endtime="1573918555"><status state="up" reason="reset" reason_ttl="63"/>
+<address addr="10.10.7.100" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="ssh" product="OpenSSH" version="7.6p1 Ubuntu 4ubuntu0.3" extrainfo="Ubuntu Linux; protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.6p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 b5:5a:45:3b:25:5a:e8:4a:0e:fd:ff:b9:d2:0e:33:15 (RSA)&#xa;  256 2e:a7:17:5d:d1:82:73:17:e6:e2:f9:d3:4e:27:9e:4a (ECDSA)&#xa;  256 92:64:bb:7c:70:ae:bd:f6:cb:7f:81:d1:13:0d:26:ab (ED25519)"><table>
+<elem key="fingerprint">b55a453b255ae84a0efdffb9d20e3315</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCX+IjYt7dkF/2kUYoO9IXJCdhZB0xOVL+Kxnimruf/ZwA2Ifx9XuSsuADZG9+J0taRw2EwNn9gIXLdxnExYzEtz4huevE/hbgXpXo1lH4il9vaSAI6lJ81LT3VPOeDoD8Vrf60rx3c8AYSPFlg6U/Di90+7w6SBRIJE4Fv2PNh5/Rj2xp4Aiyh71NqiY+thBgwI6WdITPUjrhmVoOo2qTx0XB0EFSP3lO9DbjXEW3kRncNaxdGQKuNb8xwE/HxbugSEWOD+dKTHflHvhoKvc/blJLGlw7WpL2IKOOpTizBqFx76XWvH6TnFS4BC+cByGlCDXhn7LdlvOKDgtpef86t</elem>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+</table>
+<table>
+<elem key="fingerprint">2ea7175dd1827317e6e2f9d34e279e4a</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBPMx7AYkcy/rErIP+sNWS/msXzhQvkX/BI9oB4wcc9veS/sSKXdQkP74iqVLghKkZpXJP0eaFIAZbGcIk2X2HVA=</elem>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+</table>
+<table>
+<elem key="fingerprint">9264bb7c70aebdf6cb7f81d1130d26ab</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIAPQMMjBPFFXOAvBdAkkwwyd4uObsYQ/nRDaODfugkc0</elem>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="64695"><state state="open" reason="syn-ack" reason_ttl="63"/><service name="http" product="SimpleHTTPServer" version="0.6" extrainfo="Python 3.6.8" method="probed" conf="10"><cpe>cpe:/a:python:simplehttpserver:0.6</cpe></service><script id="http-server-header" output="SimpleHTTP/0.6 Python/3.6.8"><elem>SimpleHTTP/0.6 Python/3.6.8</elem>
+</script><script id="http-title" output="Hey there!"><elem key="title">Hey there!</elem>
+</script></port>
+</ports>
+<times srtt="1261866" rttvar="833219" to="4594742"/>
+</host>
+<runstats><finished time="1573918555" timestr="Sat Nov 16 21:05:55 2019" elapsed="34.61" summary="Nmap done at Sat Nov 16 21:05:55 2019; 1 IP address (1 host up) scanned in 34.61 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
